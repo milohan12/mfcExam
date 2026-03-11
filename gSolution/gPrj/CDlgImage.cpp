@@ -74,8 +74,8 @@ void CDlgImage::OnPaint()
 
 void CDlgImage::InitImage()
 {
-	int nWidth = 640;
-	int nHeight = 480;
+	int nWidth = 4096 * 8;
+	int nHeight = 4096 * 8;
 	int nBpp = 8;
 
 	m_image.Create(nWidth, -nHeight, nBpp);
